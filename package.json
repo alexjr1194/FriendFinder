@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Application will have the user take a survey that will ask the user for his name and to input a link to a image of the user and the will ask the user a series of questions that the user will have to asnwer from a scale of 1 - 5 and then will store the users name, picture and scores from the survey in a object after the data is stored the application will try to match the user with other users that answered similarly to the user.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexjr1194/FriendFinder.git"
+  },
+  "author": "Cecilio A Ramirez Cordova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexjr1194/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/alexjr1194/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
